@@ -1,0 +1,124 @@
+
+.deserto
+ {
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  left: 200px;
+}
+
+.chao 
+{ 
+  background-image: url(../img/sprite.png);
+  position: absolute;
+  bottom: 0px;
+  background-position-y: -78px;
+  width: 1831px;
+  height: 20px;
+  z-index: 2;
+}
+
+.dino 
+{
+  background-image: url(../img/sprite.png);
+  position: absolute;
+  width: 66px;
+  left: 20px;
+  height: 70px;
+  z-index: 3;
+}
+
+
+.telaGameOver
+{
+  background-image: url(../img/sprite.png);
+  position: absolute;
+  background-position: -971px -22px;
+  width: 285px;
+  height: 16px;
+  z-index: 4;
+}
+
+.pterossauro
+{
+  background-image: url(../img/sprite.png);
+  position: absolute;
+  background-position: -195px -8px;
+  width: 54px;
+  height: 70px;
+  z-index: 3;
+}
+
+.nuvem 
+{
+  background-image: url(../img/sprite.png);
+  background-position: -125px -2px;
+  position: absolute;
+  width: 70px;
+  height: 20px;
+  z-index: 2;
+}
+
+.cactoPequenoUnico
+{
+  background-image: url(../img/sprite.png);
+  background-position: -334px -2px;
+  position: absolute;
+  width: 26px;
+  height: 52px;
+  padding-bottom: 5px;
+  z-index: 3;
+}
+
+.cactoPequenoDuplo
+{
+  background-image: url(../img/sprite.png);
+  background-position: -360px -1px;
+  position: absolute;
+  width: 51px;
+  height: 53px;
+  padding-bottom: 5px;
+  z-index: 3;
+}
+.cactoPequenoTriplo
+{
+  background-image: url(../img/sprite.png);
+  background-position: -410px -1px;
+  position: absolute;
+  width: 78px;
+  height: 53px;
+  padding-bottom: 5px;
+  z-index: 3;
+}
+.cactoGrandeSozinho
+{
+  background-image: url(../img/sprite.png);
+  background-position: -489px -2px;
+  position: absolute;
+  width: 37px;
+  height: 73px;
+  padding-bottom: 5px;
+  z-index: 3;
+}
+.cactoGrandeDuplo
+{
+  background-image: url(../img/sprite.png);
+  background-position: -527px -2px;
+  position: absolute;
+  width: 74px;
+  height: 72px;
+  padding-bottom: 5px;
+  z-index: 3;
+}
+
+.cactoGrandeTriplo
+{
+  background-image: url(../img/sprite.png);
+  background-position: -602px -2px;
+  position: absolute;
+  width: 112px;
+  height: 73px;
+  padding-bottom: 5px;
+  z-index: 3;
+}
